@@ -1,0 +1,43 @@
+body, html {
+  background-color: #2B2F38;
+  font-family: 'B612', sans-serif;
+}
+
+#location {
+  background-color: #565a66;
+  padding-left: 12px;
+  padding-right: 14px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  -webkit-box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
+  border-top-left-radius: 4px;
+  border-bottom-left-radius: 4px;
+}
+
+#textarea {
+  padding-left: 12px;
+  padding-right: 30px;
+  padding-top: 12px;
+  padding-bottom: 10px;
+  border-top-right-radius: 4px;
+  border-bottom-right-radius: 4px;
+  border: none;
+  -webkit-box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
+          box-shadow: 3px 4px 4px rgba(0, 0, 0, 0.5);
+  color: coral;
+}
+
+#checkbox {
+  display: inline-block;
+}
+
+label {
+  font-size: 15px;
+  color: rgba(190, 192, 194, 0.7);
+}
+
+label.checkq {
+  font-size: 13px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,52 @@
+$light-grey: #bec0c2;
+$box-shadow: 3px 4px 4px rgba(0, 0, 0, .5);
+$corner-radius: 4px;
+$padding-left: 12px;
+$padding-bottom: 10px;
+
+@mixin box-shadow($top, $left, $blur, $color, $inset: false) {
+    -webkit-box-shadow: $top $left $blur $color;
+    -moz-box-shadow: $top $left $blur $color;
+    box-shadow: $top $left $blur $color;
+}
+
+body, html {
+    background-color: #2B2F38;
+    font-family: 'B612', sans-serif;
+}
+
+#location {
+    background-color: #565a66;
+    padding-left: $padding-left;
+    padding-right: 14px;
+    padding-top: 10px;
+    padding-bottom: $padding-bottom;
+    @include box-shadow;
+    border-top-left-radius: $corner-radius;
+    border-bottom-left-radius: $corner-radius;
+}
+
+#textarea {
+    padding-left: $padding-left;
+    padding-right: 30px;
+    padding-top: 12px;
+    padding-bottom: 10px;
+    border-top-right-radius: $corner-radius;
+    border-bottom-right-radius: $corner-radius;
+    border: none;
+    @include box-shadow;
+    color: coral;
+}
+
+#checkbox {
+    display: inline-block;
+}
+
+label {
+    font-size: 15px;
+    color: rgba(190, 192, 194, .7)
+}
+
+label.checkq{
+    font-size: 13px;
+}
